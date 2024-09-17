@@ -1,0 +1,49 @@
+/* @import url("/home/jadarlo/.config/wofi/colors.css"); */
+@import url("/home/jadarlo/.cache/wal/colors-wofi.css");
+
+* {
+    font-family: 'SF Pro Display Bold';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+#window {
+    margin: 0px;
+    border: 3.0px solid;
+    border-color: @color10;
+    border-radius: 0px;
+    background-color: @background;
+    color: @color12;
+}
+
+#input {
+    margin: 15px;
+    background-color: @color6;
+    color: @foreground;
+    border-radius: 0px;
+    border: @color0;
+}
+
+#scroll {
+    margin-bottom: 15px;
+}
+
+#entry {
+    margin: 0px 15px;
+}
+
+#entry:selected {
+    background-color: @color1;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+
+#entry > box {
+    margin-left: 16px;
+}
+
+#entry image {
+    padding-right: 10px;
+}
